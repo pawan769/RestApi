@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Iphone 14 Pro Max",
+    "price": "140000",
+    "featured": "true",
+    "company": "apple"
+  },
+  {
+    "name": "Iphone 11 Pro ",
+    "price": "80000",
+    "featured": "true",
+    "company": "apple"
+  },
+  {
+    "name": "Samsung Galaxy S24 Ultra ",
+    "price": "130000",
+    "featured": "true",
+    "company": "samsung"
+  },
+  {
+    "name": "Apple Watch 3 Pro ",
+    "price": "40000",
+    "company": "apple"
+  },
+  {
+    "name": "Apple Watch 2 ",
+    "price": "25000",
+    "company": "apple"
+  },
+  {
+    "name": "Redmi Note 13 Pro ",
+    "price": "50000",
+    "company": "mi"
+  },
+  {
+    "name": "Samsung Galaxy M50",
+    "price": "55000",
+    "company": "samsung"
+  },
+  {
+    "name": "Dell Inspiron 7 ",
+    "price": "75000",
+    "company": "dell"
+  }
+]
