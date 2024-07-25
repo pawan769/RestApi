@@ -3,43 +3,59 @@
     "name": "Iphone 14 Pro Max",
     "price": "140000",
     "featured": "true",
-    "company": "apple"
+    "company": "apple",
+    "img": "https://cdn.gadgetbytenepal.com/wp-content/uploads/2022/09/iPhone-14-Pro-Max-Deep-Purple.jpg",
+    "category": "Mobile"
   },
   {
     "name": "Iphone 11 Pro ",
     "price": "80000",
     "featured": "true",
-    "company": "apple"
+    "company": "apple",
+    "img": "https://i5.walmartimages.com/seo/Restored-Apple-iPhone-11-Pro-64GB-Space-Gray-Fully-Unlocked-Smartphone-Refurbished_a96d32bf-e73d-4965-a8f6-270d866af435.dc1da6f963ccd1b923daa626dd7e08b2.jpeg",
+    "category": "Mobile"
   },
   {
     "name": "Samsung Galaxy S24 Ultra ",
     "price": "130000",
     "featured": "true",
-    "company": "samsung"
+    "company": "samsung",
+    "img": "https://cdn.gadgetbytenepal.com/wp-content/uploads/2024/01/Samsung-Galaxy-S24-Ultra-Gallery-4.jpg",
+    "category": "Mobile"
   },
   {
     "name": "Apple Watch 3 Pro ",
     "price": "40000",
-    "company": "apple"
+    "company": "apple",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR49OLydw7sXyqRfYlT_IctBvKkWBETnohH1Q&s",
+    "category": "Wearable"
   },
   {
     "name": "Apple Watch 2 ",
     "price": "25000",
-    "company": "apple"
+    "company": "apple",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHfauEEkjsphDOrBZVk7AlGs79wJm0ZIHvPg&s",
+    "category": "Wearable"
   },
   {
     "name": "Redmi Note 13 Pro ",
     "price": "50000",
-    "company": "mi"
+    "company": "mi",
+    "img": "https://i02.appmifile.com/583_item_tr/08/01/2024/4d8ae3c51a6e94cd98c2e1b6a18842aa!400x400!85.png",
+    "category": "Mobile"
   },
   {
     "name": "Samsung Galaxy M50",
     "price": "55000",
-    "company": "samsung"
+    "company": "samsung",
+    "img": "https://images.firstpost.com/wp-content/uploads/2019/05/Samsung-Galaxy-M40-1024.jpg",
+    "category": "Mobile"
   },
   {
-    "name": "Dell Inspiron 7 ",
+    "name": "Dell Inspiron 15 ",
     "price": "75000",
-    "company": "dell"
+    "company": "dell",
+    "img": "https://images-cdn.ubuy.ae/635cefe3c4402044e4647f42-dell-inspiron-15-3000-15-6-business.jpg",
+    "category": "Mobile"
   }
 ]

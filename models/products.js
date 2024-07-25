@@ -5,6 +5,18 @@ const productSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  img: {
+    type: String,
+    required: true,
+  },
+  category: {
+    type: String,
+    required: true,
+    enum: {
+      values: ["Mobile", "Laptop", "Printer", "watch", "Tablet", "Wearable"],
+      message: `{VALUE} is not supported`,
+    },
+  },
   price: {
     type: Number,
     required: [true, "Price must be provided!"],

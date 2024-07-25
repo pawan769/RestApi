@@ -6,6 +6,7 @@ require("dotenv").config();
 const start = async () => {
   try {
     await connectDB(process.env.MONGODB_URI);
+    // await Product.deleteMany({});
     await Product.create(productJson);
     console.log("success");
   } catch (error) {
