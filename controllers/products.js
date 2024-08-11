@@ -2,6 +2,7 @@ const Product = require("../models/products");
 
 const getAllProducts = async (req, res) => {
   const { company, name, featured, sort, select } = req.query;
+
   const queryObj = {};
 
   if (company) {
@@ -29,7 +30,6 @@ const getAllProducts = async (req, res) => {
 
   const skip = (page - 1) * limit;
 
-  console.log(queryObj);
   const Products = await queryResult.skip(skip).limit(limit);
   res.status(200).json(Products);
 };
@@ -37,5 +37,21 @@ const getAllProductsTest = async (req, res) => {
   const Products = await Product.find({});
   res.status(200).json(Products);
 };
+const getSingleProduct = async (req, res) => {
+  console.log(req.params);
+  const queryObj = {};
 
-module.exports = { getAllProducts, getAllProductsTest };
+  const { name: parName, id } = req.params;
+  if (parName) {
+    queryObj.name = { $regex: parName, $options: "i" };
+  }
+  if (id) {
+    queryObj._id = id;
+  }
+
+  let queryResult = Product.find(queryObj);
+  const Products = await Product.find(queryObj);
+  res.status(200).json(Products);
+};
+
+module.exports = { getAllProducts, getAllProductsTest, getSingleProduct };
